@@ -26,14 +26,16 @@ Autor E-mail: vinicius@itmob.com.br
 
 :root {
 
+    --color-primary: #ffc500;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 16px; 
 
 }
 
 body {
 
     margin: 0;
+    padding-top: 7.75rem;
 
 }
 
@@ -42,12 +44,6 @@ ul {
     display: flex;
     list-style: none;
     padding-left: 0;
-
-}
-
-li {
-
-    margin-right: 0.625rem;
 
 }
 
@@ -60,6 +56,7 @@ li {
     top: 0;
     left: 0;
     width: 100vw;
+    height: 7.75rem;
     padding: 0 1rem;
     background-color: #000000; /* vermelho / verde / azul / transparência - 0 - F */
     color: #ffffff;
@@ -72,9 +69,47 @@ li {
 
 }
 
+.navbar__links li {
+
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+
+}
+
 .navbar__links a {
 
+    font-weight: 300;
     color: #ffffff;
     text-decoration: none;
+
+}
+
+.navbar__links a:hover {
+
+    color: var(--color-primary);
+
+}
+
+.logo-studion {
+
+    font-size: 2.375rem;
+    font-weight: 900;
+    line-height: 1ch; /* relativa ao tamanho da altura do glifo 0 da font */
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+.logo-studion__subtitle {
+
+    font-size: 0.875rem;
+    font-weight: 300;
+
+}
+
+.copy--primary {
+
+    color: var(--color-primary);
 
 }
