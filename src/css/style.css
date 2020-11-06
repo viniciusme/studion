@@ -1,0 +1,80 @@
+/* =========================================================================
+
+Template Name: Studion
+Description: Homepage for Studion Event provider and services.
+Version: 0.0.1
+Author: Vinicius Mendes
+Author URL: http://www.itmob.com.br
+Autor E-mail: vinicius@itmob.com.br
+
+============================================================================ */
+
+
+/* =============================================================================
+   1. Início das Configurações de style do Arquivo (index.html)
+============================================================================= */
+/* Index
+============================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+body {
+
+    margin: 0;
+
+}
+
+ul {
+
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+li {
+
+    margin-right: 0.625rem;
+
+}
+
+.navbar {
+
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0 1rem;
+    background-color: #000000; /* vermelho / verde / azul / transparência - 0 - F */
+    color: #ffffff;
+
+}
+
+.navbar__links {
+
+    justify-self: end;
+
+}
+
+.navbar__links a {
+
+    color: #ffffff;
+    text-decoration: none;
+
+}
