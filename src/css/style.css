@@ -154,7 +154,7 @@ ul {
 .slide {
 
     position: relative;
-    height: calc(100vh - 7.75rem);
+    height: calc(90vh - 4.75rem);
 
 }
 
@@ -271,6 +271,7 @@ ul {
 .institutional__image {
 
     max-width: 550px;
+    box-shadow: 0 1rem 1rem #0006; /* x, y, blur, cor */
 
 }
 
@@ -311,6 +312,7 @@ ul {
 
     color: var(--color-copy);
     background: unset;
+    box-shadow: 0 1rem 1rem #0006; /* x, y, blur, cor */
 
 }
 
