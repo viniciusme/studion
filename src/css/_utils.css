@@ -1,0 +1,23 @@
+/* =========================================================================
+
+Template Name: Studion
+Description: Homepage for Studion Event provider and services.
+Version: 0.0.1
+Author: Vinicius Mendes
+Author URL: http://www.itmob.com.br
+Autor E-mail: vinicius@itmob.com.br
+
+============================================================================ */
+
+
+/* =============================================================================
+   1. Início das Configurações de style do Arquivo de Utils
+============================================================================= */
+/* Page Utils
+============================================================================= */
+
+.copy--primary {
+
+    color: var(--color-primary);
+    
+}
